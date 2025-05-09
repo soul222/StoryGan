@@ -16,7 +16,7 @@
       "purpose": "any"
     },
     {
-      "src": "images/Logo.png",
+      "src": "images/Icon.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
@@ -62,9 +62,9 @@
       "url": "/?source=pwa#/new",
       "icons": [
         {
-          "src": "images/icons/add.png",
+          "src": "images/icons/add-x512.png",
           "type": "image/png",
-          "sizes": "512x533"
+          "sizes": "512x512"
         }
       ]
     },
@@ -77,7 +77,7 @@
         {
           "src": "images/icons/bookmark.png",
           "type": "image/png",
-          "sizes": "512x533"
+          "sizes": "512x512"
         }
       ]
     }
