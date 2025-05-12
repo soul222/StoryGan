@@ -1,0 +1,79 @@
+{
+  "id": "/#/",
+  "start_url": "/#/",
+  "scope": "/",
+  "name": "Story Web App",
+  "short_name": "StoryGan",
+  "description": "Social media app for students dicoding",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0095f6",
+  "icons": [
+    {
+      "src": "images/Logo.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
+      "src": "images/Logo-Desktop.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshots/story-app-home.png",
+      "sizes": "1920x1043",
+      "type": "image/png",
+      "from_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/story-app-new.png",
+      "sizes": "1921x1043",
+      "type": "image/png",
+      "from_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/story-app-home(mobile).png",
+      "sizes": "1080x1574",
+      "type": "image/png",
+      "from_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/story-app-new(mobile).png",
+      "sizes": "1080x1574",
+      "type": "image/png",
+      "from_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Story Baru",
+      "short_name": "Baru",
+      "description": "Membuat story baru.",
+      "url": "/?source=pwa#/new",
+      "icons": [
+        {
+          "src": "images/icons/add-x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Saved Stories",
+      "short_name": "Saved",
+      "description": "Memlihat story yang telah disimpan.",
+      "url": "/?source=pwa#/bookmark",
+      "icons": [
+        {
+          "src": "images/icons/bookmark.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ]
+}
